@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th = "https://thymeleaf.org">
+<head>
+<style>
+*{
+font-family:Arial,Helvetica,sans-serif;
+}
+h1{
+color:blue;
+}
+p{font-style:italic;
+}
+.title *{
+border:2px solid #222;
+border-radius:5px;
+width:fit-content;
+padding:0.5em;
+}
+</style>
+</head>
+<body>
+<div class="title">
+<h1 th:text = "${message}">Hello WOrld</h1>
+</div>
+<p>HI THIS IS ASKAJFAF</p>
+<p>todays report<span th:"${rating}">massssss</span></p>
+</body>
+</html>
